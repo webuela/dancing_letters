@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Letras Vivas · Живые буквы · Living Letters</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Space+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2.5rem;background:#fffdf7;color:#1a1a18;font-family:'Space Mono',monospace;padding:2rem;text-align:center}
+h1{font-family:'Playfair Display',serif;font-size:clamp(30px,6vw,52px);line-height:1.15;font-weight:700}
+h1 em{font-style:italic;font-weight:400}
+.sub{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:#a89e8e}
+.langs{display:flex;flex-direction:column;gap:.8rem;width:100%;max-width:340px}
+.langs a{display:flex;align-items:center;justify-content:space-between;border:1px solid #ede8dc;border-radius:16px;padding:1rem 1.3rem;text-decoration:none;color:#1a1a18;background:#fff;transition:all .15s;font-size:14px}
+.langs a:hover{border-color:#1a1a18;transform:translateY(-1px)}
+.langs .code{font-size:10px;letter-spacing:.2em;color:#a89e8e}
+footer{font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#c8bfaf}
+</style>
+</head>
+<body>
+  <div>
+    <h1><strong>Letras</strong> <em>Vivas</em></h1>
+    <p class="sub" style="margin-top:.6rem">poesía animada · animated poetry · анимированная поэзия</p>
+  </div>
+  <nav class="langs">
+    <a href="es/"><span>Español</span><span class="code">ES</span></a>
+    <a href="ru/"><span>Русский</span><span class="code">RU</span></a>
+    <a href="en/"><span>English</span><span class="code">EN</span></a>
+  </nav>
+  <footer>elige tu idioma · choose your language · выберите язык</footer>
+</body>
+</html>
