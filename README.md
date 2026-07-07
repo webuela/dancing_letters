@@ -4,7 +4,7 @@
 
 For most readers, letters sit still on the page. For many people with dyslexia, they don't: characters seem to flip, mirror, swim, tremble, or swap places. *Living Letters* turns any poem into a living, moving text so that a fluent reader can experience — for a moment — what an unstable page might feel like, and so that this experience can be shared as art.
 
-🔗 **Try it:** `https://YOUR-USERNAME.github.io/YOUR-REPO/` *(choose your language: ES / RU / EN)*
+🔗 **Try it:** `https://webuela.github.io/dancing_letters/` *(choose your language: ES / RU / EN)*
 
 ## What it does
 
